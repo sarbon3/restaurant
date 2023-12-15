@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@600&family=Dancing+Script:wght@500&family=Montserrat:ital,wght@0,400;0,500;1,500&family=Noto+Serif+JP:wght@500&family=Old+Standard+TT:ital@0;1&family=Playfair+Display&family=Roboto:ital,wght@1,300&family=Satisfy&family=Source+Serif+Pro:wght@400;700&family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+</head>
+<body>
+    <div class="container">
+        <header id = "bootstrapHeader" class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+          <a id = "name" href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-light text-decoration-none">
+            SWIZERLAND <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+    
+          <ul id = "bootstrLi" class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="# heading" class="nav-link px-2 text-light">О ресторане </a></li>
+            <li><a href="#heading-menu" class="nav-link px-2 text-light">Меню</a></li>
+            <li><a href="#heading-galary" class="nav-link px-2 text-light">Галерея</a></li>
+            <li><a href="#header-reserve" class="nav-link px-2 text-light" id = "tableRes">Забронировать</a></li>
+            <li><a href="#heading-contacts" class="nav-link px-2 text-light">Контакты</a></li>
+            <li class="nav-item dropdown">
+              <a class="admin nav-link dropdown-toggle" href="#" id="dropdown07XL" data-bs-toggle="dropdown" aria-expanded="true">Панель администратора</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdown07XL" data-bs-popper="none">
+                <li><a class="calculate dropdown-item" href="#clientCalc">Расчет клиента</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="icon">
+            <a href="#" ><img src="icons8-лыжный-курорт-50.png"></a></li>
+          </div>
+        </header>
+      </div>
+      <!--О ресторане-->
+      <div class="container-about">
+        <h1 id="heading">О ресторане</h1>
+        <div class="about-and-chef-pic">
+          <div class="par">
+          <p class="about-rest">Добрый день, друзья!<br>
+          Добро пожаловать в ресторан "Swizerland"! <br>
+          Меня зовут Рето Келлер. Я шеф-повар ресторана.<br>
+          Приглашаю Вас в наш ресторан, чтобы насладиться необычной кухней, которая формировалась на протяжении многих веков  под влиянием кулинарных традиций стран-соседей – Италии, Германии, Франции. 
+          Willkommen!</p>
+          </div>
+          <img class="chef" src="chef.jpg" alt="" width="" >
+        </div>
+      </div>
+      <!--Menu-->
+      <div class="container-menu">
+        <h1 id="heading-menu">Меню</h1>
+        <div class="menu"> 
+          <div class="common">
+            <img class="dishes" src="fondue2.jpg" alt="fondue" width="150px">
+            <p class="text-menu item">Фондю</p>
+            <p class="text-menu">Основу угощения составляет сыр сорта Грюер и Вашерон, белое вино и специи.</p>
+            <p class="text-menu">700
+            <span class="currancy">Р.</span>
+            </p>  
+          </div>
+          <div class="common">
+            <img class="dishes" src="rosti.jpg" alt="rosti" width="150px">
+            <p class="text-menu item">Рёшти</p>
+            <p class="text-menu">Швейцарское национальное блюдо, изготавливаемое из тёртого сырого картофеля.</p>
+            <p class="text-menu">550
+            <span class="currancy">Р.</span>
+            </p>
+          </div>
+          <div class="common">
+            <img class="dishes" src=" Zurich Tirggel.jpg" alt="Tirggel" width="150px">
+            <p class="text-menu item">Tirggel</p>
+            <p class="text-menu">Очень тонкое твердое "зимнее" печенье. В его составе только мука, мед и специи.  </p>
+              <p class="text-menu">150
+            <span class="currancy">Р.</span>
+          </p>
+          </div>
+          </div>
+          <div class="menu"> 
+          <div class="common">
+            <img class="dishes" src="meat.jpg" alt="meat" width="150px">
+            <p class="text-menu item">Капунс</p>
+            <p class="text-menu">Традиционное для Граубюндена вяленое мясо,сделанное из отменной говядины</p>
+            <p class="text-menu">150
+            <span class="currancy">Р.</span>
+            </p>
+          </div>
+          <div class="common">
+            <img class="dishes" src="Bratwurst.jpg" alt="Bratwurst" width="150px">
+            <p class="text-menu item">Братвурст</p>
+            <p class="text-menu">Вкусные немецкие сосиски из свининого мяса и сала</p>
+            <p class="text-menu">650 <span class="currancy">Р.</span></p>
+          
+          </div>
+          <div class="common">
+            <img class="dishes" src="суп-Mehlsuppe.jpg" alt="Mehlsuppe" width="150px">
+            <p class="text-menu item">суп Mehlsuppe</p>
+            <p class="text-menu">Швейцарский сырный суп</p>
+            <p class="text-menu">650 <span class="currancy">Р.</span></p>
+          </div>
+        </div>
+      </div>
+      <!--Галерея-->
+      <div class="container-galary">
+        <h1 id="heading-galary">Галерея</h1>
+      </div>
+      <div class="wrapper">
+        <button class="back"><<</button>
+        <div class="pic">
+          <img class="sliderOne" src="sliders/1.jpg" alt="">
+        </div>
+        <div class="pic">
+          <img class="sliderTwo" src="sliders/2.jpg" alt="">
+        </div>
+        <button class="next">>></button>
+      </div>
+      <!--Контакты-->
+      <div class="container-contacts">
+        <h1 id="heading-contacts">Контакы ресторана "Swizerland</h1>
+      </div>
+      <div class="contacts">
+        <div class="contacts-info">
+          <h3>Адрес</h3>
+          <p>603000 <br>
+          г.Нижний Новгород <br>
+          ул.М.Горького д.25</p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2213.0610864943046!2d43.9787256!3d56.3115189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4151d5b0a9bee04d%3A0xaa14d4516cf12ac1!2sMaxim%20Gorky%20St%2C%2025%2C%20Nizhnij%20Novgorod%2C%20Nizhegorodskaya%20oblast&#39;%2C%20603000!5e0!3m2!1sen!2sru!4v1687813629494!5m2!1sen!2sru" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="contacts-info">
+          <h3>График работы</h3> 
+          <p>ВС-ЧТ - 12:00-00:00 <br>
+          ПТ-СБ - 12:00-05:00</p>
+        </div>
+        <div class="contacts-info">
+          <h3>Телефон/ e-mail</h3>
+          <p>+7 920-000-00-05 <br>
+            Swizerland@restaurant.ru
+          </p>
+          <a href="whatsapp://send?phone=+792000000005"> <img src="whatsapp.png"> </a>
+        </div>       
+      </div>
+         <!--Бронь-->
+         <div class="reserve">
+          <div class="buttonCross">
+            <button class="btn-close"></button>
+          </div>
+          <h2 id="header-reserve">Забронировать столик</h2>
+          <div class="input-name">
+            <input class="name" type="text" placeholder="ФИО" pattern="">
+          </div>
+          <div class="input-name">
+            <input class="phone" type="text" placeholder="Контактный номер">
+          </div>
+        <div class="input-name">
+          <label>Выберете дату</label>
+           <input class="date" type="date">
+        </div>
+        <button class="send">Отправить</button>
+      </div>
+      <!--Панель админа-->
+      <!--Счет-->
+      <div class="container-admin">
+        <h1 id="heading-admin">Панель администратора</h1>
+      </div>
+      <div class="containerTwo">
+        <form>
+        <h3 id="clientCalc"> Расчет клиента </h3>
+        <p> Счет </p>
+        <span>
+            <input type="text"class= "bill" placeholder="Счет">
+        </span>
+            <p> Количество гостей </p>
+        <span>
+            <input type="text" class="people" placeholder = "Количество гостей">
+        </span>
+            <button class="addTip">Чаевые</button>
+        <select class="tip">
+          <option disabled>Выбрать нужный процент чаевых</option>
+          <option value="0.30"> 30 % </option>
+          <option value="0.20"> 20 % </option>
+          <option value="0.15"> 15 % </option>
+          <option value="0.10" > 10 % </option>
+          <option value="0.00" selected> Без чаевых </option>
+        </select>
+        <button class="btn">Расчет</button>
+      </form>
+      <div class="showCommonAmountToPay">
+        <div class="billSplit">
+          <p>Счет</p>
+          <span> $ </span>
+          <span class="devidedBill"></span>
+          <span>за человека</span>
+        </div>
+        <div class="totalTip">
+          <p>Чаевые</p>
+          <span>$</span>
+          <span class="devidedTIp"></span>
+          <span>за человека</span>
+          </div>
+        <div class="totalAmount">
+          <p>Итого</p>
+          <span>$</span>
+          <span class="billAndTip"> </span>
+          <span>за человека</span>
+        </div>
+      </div>
+    </div>
+    
+     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
+
